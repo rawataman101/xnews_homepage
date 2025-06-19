@@ -101,7 +101,7 @@ const App = () => {
       </section>
 
       <footer>
-        <p>Challenge by <a href="https://www.crio.do/" target="_blank" rel="noopener noreferrer">Crio.Do</a>. Coded by <a href="https://github.com/ShivamSh002" target="_blank" rel="noopener noreferrer">Shivam Sharma</a>.</p>
+        <p>Challenge by <a href="https://www.crio.do/" target="_blank" rel="noopener noreferrer">Crio.Do</a>. Coded by <a href="https://github.com/rawataman101" target="_blank" rel="noopener noreferrer">Aman Rawat</a>.</p>
       </footer>
     </div>
   );
