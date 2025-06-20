@@ -32,7 +32,7 @@ const App = () => {
           <button id="menu-close" className="menu-button" onClick={toggleMenu}>
             ×
           </button>
-          <ul className="nav-items">
+          <ul className="nav-itmes">
              <li><a href="#home">Home</a></li>
             <li><a href="#new">New</a></li>
             <li><a href="#popular">Popular</a></li>
