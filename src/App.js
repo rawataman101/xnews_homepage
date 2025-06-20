@@ -27,7 +27,7 @@ const App = () => {
   return (
     <div className="app-container">
       <header className="header">
-        <img src={logo} alt="Logo" className="logo" data-testid="site-logo" />
+        <img src="./assets/images/logo.svg" alt="Logo" className="logo" data-testid="site-logo" />
         <nav className={menuOpen ? 'nav open' : 'nav'}>
           <button id="menu-close" className="menu-button" onClick={toggleMenu}>
             ×
@@ -48,7 +48,7 @@ const App = () => {
       <main className="main-content">
         <section className="hero-section">
           <div className="hero-img">
-            <img src={isMobile ? heroMobile : heroDesktop} alt="Hero Image" />
+            <img src={isMobile ? "./assets/images/image-web-3-mobile.jpg" : "./assets/images/image-web-3-desktop.jpg"} alt="Hero Image" />
           </div>
           <div className="hero-text">
             <h1 className="main-text">The Bright Future of Web 3.0?</h1>
